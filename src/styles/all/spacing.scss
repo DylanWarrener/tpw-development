@@ -1,0 +1,53 @@
+/* SPACING */
+$global: 2px;
+
+/* WIDTH */
+$width_viewport_global: 100vw;
+
+$width_percentage_global: 100%;
+$width_percentage_fill_parent: $width_percentage_global;
+$width_percentage_half_parent: 50%;
+
+$width_pixel_global: 2px;
+$width_pixel_nav_side: $width_pixel_global;
+$width_pixel_toggle_switch: 40px;
+$width_pixel_icon: 32px;
+$width_pixel_nav_dropdown_btn: 80px;
+
+/* HEIGHT */
+$height_viewport_global: 100vh;
+$height_viewport_nav: 12vh;
+$height_viewport_canvas: $height_viewport_global;
+
+$height_percentage_global: 100%;
+$height_percentage_fill_parent: $height_percentage_global;
+$height_percentage_half_parent: 50%;
+
+$height_pixel_global: 2px;
+$height_pixel_nav_side: $height_pixel_global;
+$height_pixel_toggle_switch: 20px;
+$height_pixel_icon: 32px;
+$height_pixel_nav_bottom: $height_pixel_global;
+$height_pixel_nav_dropdown_btn: 20px;
+
+/* MARGIN */
+$margin_global: 10px;
+$margin_quote_box: 0 0 25px 0;
+
+/* PADDING */
+$padding_percentage_global: 5%;
+$padding_percentage_canvas: $padding_percentage_global;
+$padding_percentage_carousel: $padding_percentage_global;
+
+$padding_pixel_global: 10px;
+$padding_pixel_quote_box: 25px;
+$padding_pixel_headings: $padding_pixel_global;
+$padding_pixel_btn: 5px 20px 5px 20px;
+$padding_pixel_nav_links: 4px $padding_pixel_global 4px $padding_pixel_global;
+$padding_pixel_footer: 5rem;
+
+/* GAP */
+$gap_pixel_global: 5px;
+$gap_pixel_canvas_elements: 50px;
+$gap_pixel_nav_horizontal_li: 10px;
+$gap_pixel_nav_vertical_ul: 10px;

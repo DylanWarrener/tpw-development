@@ -1,0 +1,24 @@
+/* FUNCTIONS */
+// Exponentially works out the font-size based on base value
+@function font-size-pow($fs: $font-size, $gr: $golden-ratio, $ex: $exponent) {
+  $final-font-size: $fs;
+
+  @if $ex > 0 {
+    @for $_ from 1 through $ex {
+      $final-font-size: $final-font-size * $gr;
+    }
+  }
+
+  @return $final-font-size;
+}
+
+// Converts numbers to strings and visa versa
+@function convert-num-to-string($value) {
+  @if type-of($value) == "number" {
+    @return #{$value};
+  } @else if type-of($value) == "string" {
+    @return $value;
+  } @else {
+    @return "Input #{$value} is not a number or string";
+  }
+}

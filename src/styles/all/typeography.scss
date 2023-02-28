@@ -1,0 +1,42 @@
+/* FONT FAMILY */
+$font-family-primary: Arial, "Work Sans", "Lato", "sans-serif";
+$font-family-secondary: "Work Sans", Arial, "Lato", sans-serif;
+
+/* FONT SIZE */
+$font-size-golden-ratio: 1.618;
+
+/* PC */
+$font-size-base: 1.8rem;
+
+/* MOBILE */
+$font-size-mobile-base: 1.6rem;
+
+/* FONT TRANSFORM */
+$font-transform-global: none;
+$font-transform-h1: uppercase;
+$font-transform-h2: capitalize;
+$font-transform-h3: capitalize;
+
+/* FONT WEIGHT */
+$font-weight-global: normal;
+$font-weight-h1: bolder;
+$font-weight-h2: bold;
+$font-weight-h3: bold;
+$font-weight-h4: "";
+$font-weight-p: "";
+
+/* FONT STYLE */
+$font-style-global: normal;
+$font-style-h1: "";
+$font-style-h2: "";
+$font-style-h3: italic;
+$font-style-h4: italic;
+$font-style-p: "";
+
+/* FONT VARIANT */
+$font-variant-global: normal;
+$font-variant-h1: "";
+$font-variant-h2: small-caps;
+$font-variant-h3: "";
+$font-variant-h4: "";
+$font-variant-p: common-ligatures tabular-nums;

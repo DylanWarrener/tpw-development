@@ -1,0 +1,12 @@
+@use "/src/styles/all/colors";
+
+$background-color-light-toggle-switch: colors.$theme-secondary-hex;
+$background-color-light-boxes: colors.$theme-primary-rgba;
+$background-color-light-nav-links-side: colors.$shade-primary-80-hex;
+$background-color-light-nav-links-bottom: colors.$shade-primary-60-hex;
+
+$background-color-dark-toggle-switch: colors.$theme-primary-hex;
+$background-color-dark-boxes: colors.$theme-secondary-rgba;
+$background-color-dark-nav-links-side: colors.$tint-secondary-80-hex;
+$background-color-dark-nav-links-bottom: colors.$tint-secondary-60-hex;
+$background-color-dark-btn-to-top: colors.$theme-accent-hex;

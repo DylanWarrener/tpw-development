@@ -1,0 +1,149 @@
+{
+    "common": {
+        "isDarkTheme": true,
+        "icons": {
+            "navigate": "navigate_next",
+            "next": "arrow_forward_ios",
+            "prev": "arrow_back_ios"
+        },
+        "logo": {
+            "text": {
+                "alt": {
+                    "tpwLogo": "TPW Logo"
+                }
+            }
+        },
+        "navigation": {
+            "icons": {
+                "menu": "menu",
+                "person": "person",
+                "shoppingBasket": "shopping_basket"
+            },
+            "links": {
+                "home": "/",
+                "kitchen": "/kitchens",
+                "bathroom": "/bathrooms",
+                "extension": "/extensions", 
+                "refurbishment": "/refurbishments",
+                "contact": "/contact",
+                "about": "/about"
+            },
+            "text": {
+                "home": "home",
+                "kitchen": "kitchens",
+                "bathroom": "bathrooms",
+                "extension": "extensions", 
+                "refurbishment": "refurbishments",
+                "contact": "contact",
+                "about": "about"
+            }
+        },
+        "section": {
+            "canvas": {
+                "quoteBox": {
+                    "btnText": "Be Inspired?"
+                }
+            },
+            "beInspired": {
+                "carousel": {
+                    "dropdownText": [
+                        "Kitchens",
+                        "Bathrooms",
+                        "Extensions",
+                        "Refurbishments",
+                        "Newbuilds"
+                    ]
+                },
+                "heading": "Be Inspired",
+                "subheading": "Browse through our most popular options."
+            },
+            "portfolio": {
+                "heading": "Portfolio"
+            },
+            "reviews": {
+                "heading": "Reviews"
+            },
+            "processOfElimination": {
+                "heading": "Process of Elimination"
+            },
+            "latestNews": {
+                "heading": "Latest News"
+            }
+        }
+    },
+    "header": {
+        "cookies": {},
+        "icons": {
+            "dropdown": "arrow_drop_down"
+        },
+        "updates": {}
+    },
+    "home": {
+        "canvas": {
+            "btnText": "",
+            "heading": "Change by Choice, not by Chance",
+            "subheading": "Assemble your dream home with our team of experts."
+        }
+    },
+    "kitchen": {
+        "canvas": {
+            "heading": "Kitchens",
+            "subheading": "Hash your recipies with our interactive entities."
+        }
+    },
+    "bathroom": {
+        "canvas": {
+            "heading": "Bathrooms",
+            "subheading": "Own your restroom with our pristine collections."
+        }
+    },
+    "extension": {
+        "canvas": {
+            "heading": "Extensions",
+            "subheading": "Mammoth your space with our innovative styles."
+        }
+    },
+    "refurbishment": {
+        "canvas": {
+            "heading": "Extensions",
+            "subheading": "Enlighten and re-establish your home with our ingenuious designs. "
+        }
+    },
+    "newbuild": {
+        "canvas": {
+            "heading": "Newbuilds",
+            "subheading": "Structure new homes with our hasty reinforced foundations."
+        }
+    },
+    "contact": {
+        "canvas": {
+            "heading": "Contact",
+            "subheading": ""
+        }
+    },
+    "about": {
+         "canvas": {
+            "heading": "About",
+            "subheading": ""
+        }
+    },
+    "footer": {
+        "contactDetails": {
+            "email": "wozzle1996@gmail.com",
+            "mobile": "07464599396"
+        },
+        "icons": {
+            "backToTop": "keyboard_double_arrow_up"
+        },
+        "socials": {
+            "links": {
+                "facebook": "",
+                "instagram": ""
+            },
+            "text": {
+                "facebook": "Facebook",
+                "instagram": "Instagram"
+            }
+        }
+    }
+}

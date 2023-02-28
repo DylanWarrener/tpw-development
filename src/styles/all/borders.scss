@@ -1,0 +1,49 @@
+@use "/src/styles/all/colors";
+
+/* SIZE */
+$size_global: 2px;
+$size_nav_bottom: $size_global * 2;
+
+/* STYLE */
+$style_global: solid;
+
+/* COLOUR */
+$color_global: white;
+$color_nav_bottom: colors.$theme_accent_hex;
+
+$color_light_toggle_switch: colors.$shade_secondary_60_hex;
+$color_light_heading: colors.$shade_accent_40_hex;
+$color_light_btn: colors.$shade_accent_40_hex;
+
+$color_dark_toggle_switch: colors.$tint_primary_80_hex;
+$color_dark_heading: colors.$tint_accent_40_hex;
+$color_dark_btn: colors.$tint_accent_40_hex;
+
+/* WIDTH */
+$width_horizontal_line: 100%;
+$width_vertical_line: 2px;
+
+/* HEIGHT */
+$height_horizontal_line: 2px;
+$height_vertical_line: 100%;
+
+/* RADIUS */
+$radius_global: 25px;
+$radius_vertical_nav: 0 0 $radius_global $radius_global;
+$radius_quote_box: $radius_global;
+$radius_btn: $radius_global;
+$radius_nav_dropdown_btn: 0 0 $radius_global $radius_global;
+$radius_toggle_switch: $radius_global;
+$radius_canvas_dropdown: $radius_global;
+
+/* SIMPLIFIED BORDER */
+$border_header_bottom: $size_nav_bottom $style_global $color_nav_bottom;   
+
+/* SIMPLIFIED BORDER PER THEME */
+$border_light_toggle_switch: $size_global $style_global $color_light_toggle_switch;
+$border_light_heading: $size_global $style_global $color_light_heading;
+$border_light_btn: $size_global $style_global $color_light_btn;
+
+$border_dark_toggle_switch: $size_global $style_global $color_dark_toggle_switch;
+$border_dark_heading: $size_global $style_global $color_dark_heading;
+$border_dark_btn: $size_global $style_global $color_dark_btn;

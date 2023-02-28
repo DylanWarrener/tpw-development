@@ -1,0 +1,105 @@
+CODING STANDARD:
+    Strings: 
+        - '' to be used for strings.
+        - "" to be used for HTML & Vue attributes.
+
+WEBSITE PERSONALITY: 
+    - Startup & Upbeat
+    - Bold & Confident
+
+    TYPOGRAPHY:
+        - Startup & Upbeat
+            - Headings no too Large
+            - Sans-Serif typefaces 
+            - Either light or heavy weight
+
+        - Bold & Confident
+            - Sans-serif typefaces
+            - Bold font weight
+            - Large body size
+
+        - Mixed
+            - Sans-Serif typeface
+            - Regular font weight
+            - Medium body size
+
+    COLORS: 
+        - Startup & Upbeat
+            - Blue
+            - Green
+            - Purple
+            - Grey
+            - Light backgrounds (mainly grey)
+            - Gradients
+
+        - Bold & Confident
+            - Bright colors
+            - Black
+
+        - Mixed
+            - Black
+            - Grey
+            - White
+            - Purple
+            - Bright colors
+
+    IMAGES & ILLUSTRATIONS: 
+        - Startup & Upbeat
+            - 3D illustrations are modern
+            - Patterns and shapes are used
+            - Big high quality images
+            - Icons are frequent
+            - Images and illustrations are used a lot
+
+        - Bold & Confident
+            - Big high quality images
+            - No icons
+
+        - Mixed
+            - Big high quality images
+            - 3D or 2D Illustrations
+            - Patterns and shapes are used
+            - Icons filled from the inside
+
+    VISUAL HIERARCHY & UI: 
+        Shadows:
+            - Startup & Upbeat
+                - Subtle shadows
+                - Glows are becoming more modern
+
+            - Bold & Confident
+                - None
+
+            - Mixed
+                - Subtle shadows
+                - Glows
+
+        Borders:
+            - Startup & Upbeat
+                - Border radius change is common
+
+            - Bold & Confident
+                - None
+
+            - Mixed
+                - Border radius (circle or square where necessary)
+
+        Layout:
+            - Startup & Upbeat
+                - Rows of cards
+                - Z-patterns are usual, as well as animations
+
+            - Bold & Confident
+                - All kinds of layouts
+
+            - Mixed
+                - Rows of cards
+                - Creative layouts
+
+GRID SYSTEM: 
+    Device: 
+        - Extra small (0px    > < 600px)
+        - Small       (600px  > < 960px)
+        - Medium      (960px  > < 1264px)
+        - Large       (1264px > < 1904px)
+        - Extra large (>1904px)

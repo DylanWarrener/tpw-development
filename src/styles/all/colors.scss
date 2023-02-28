@@ -1,0 +1,125 @@
+/* OPACITY */
+$opacity_background_global: 0.8;
+
+// Theme color rule: 60_30_10
+// 60% Primary theme
+// 30% Secondary theme
+// 10% Accent theme
+
+/* THEME HEX */
+$theme_primary_hex: #8e898d;
+$theme_secondary_hex: #3c354e;
+$theme_accent_hex: #7f017f;
+
+/* THEME RGB */
+$theme_primary_rgb: rgb(142, 137, 141);
+$theme_secondary_rgb: rgb(60, 53, 78);
+$theme_accent_rgb: rgb(127, 1, 127);
+
+/* THEME RGBA */
+$theme_primary_rgba: rgba(142, 137, 141, $opacity_background_global);
+$theme_secondary_rgba: rgba(60, 53, 78, $opacity_background_global);
+$theme_accent_rgba: rgba(127, 1, 127, $opacity_background_global);
+
+/* TINTS HEX (LIGHT COLORS) */
+$tint_primary_20_hex: #a5a1a4;
+$tint_primary_40_hex: #bbb8bb;
+$tint_primary_60_hex: #d2d0d1;
+$tint_primary_80_hex: #e8e7e8;
+$tint_secondary_20_hex: #635d71;
+$tint_secondary_40_hex: #8a8695;
+$tint_secondary_60_hex: #b1aeb8;
+$tint_secondary_80_hex: #d8d7dc;
+$tint_accent_20_hex: #993499;
+$tint_accent_40_hex: #b267b2;
+$tint_accent_60_hex: #cc99cc;
+$tint_accent_80_hex: #e5cce5;
+
+/* TINT RGB (LIGHT COLORS) */
+$tint_primary_20_rgb: rgb(165, 161, 164);
+$tint_primary_40_rgb: rgb(187, 184, 187);
+$tint_primary_60_rgb: rgb(210, 208, 209);
+$tint_primary_80_rgb: rgb(232, 231, 232);
+$tint_secondary_20_rgb: rgb(99, 93, 113);
+$tint_secondary_40_rgb: rgb(138, 134, 149);
+$tint_secondary_60_rgb: rgb(177, 174, 184);
+$tint_secondary_80_rgb: rgb(216, 215, 220);
+$tint_accent_20_rgb: rgb(153, 52, 153);
+$tint_accent_40_rgb: rgb(178, 103, 178);
+$tint_accent_60_rgb: rgb(204, 153, 204);
+$tint_accent_80_rgb: rgb(229, 204, 229);
+
+/* TINT RGBA (LIGHT COLORS) */
+$tint_primary_20_rgba: rgba(165, 161, 164, $opacity_background_global);
+$tint_primary_40_rgba: rgba(187, 184, 187, $opacity_background_global);
+$tint_primary_60_rgba: rgba(210, 208, 209, $opacity_background_global);
+$tint_primary_80_rgba: rgba(232, 231, 232, $opacity_background_global);
+$tint_secondary_20_rgba: rgba(99, 93, 113, $opacity_background_global);
+$tint_secondary_40_rgba: rgba(138, 134, 149, $opacity_background_global);
+$tint_secondary_60_rgba: rgba(177, 174, 184, $opacity_background_global);
+$tint_secondary_80_rgba: rgba(216, 215, 220, $opacity_background_global);
+$tint_accent_20_rgba: rgba(153, 52, 153, $opacity_background_global);
+$tint_accent_40_rgba: rgba(178, 103, 178, $opacity_background_global);
+$tint_accent_60_rgba: rgba(204, 153, 204, $opacity_background_global);
+$tint_accent_80_rgba: rgba(229, 204, 229, $opacity_background_global);
+
+/* SHADE HEX (DARK COLORS)*/
+$shade_primary_20_hex: #726e71;
+$shade_primary_40_hex: #555255;
+$shade_primary_60_hex: #393738;
+$shade_primary_80_hex: #1c1b1c;
+$shade_secondary_20_hex: #302a3e;
+$shade_secondary_40_hex: #24202f;
+$shade_secondary_60_hex: #18151f;
+$shade_secondary_80_hex: #0c0b10;
+$shade_accent_20_hex: #660166;
+$shade_accent_40_hex: #4c014c;
+$shade_accent_60_hex: #330033;
+$shade_accent_80_hex: #190019;
+
+/* SHADE RGB (DARK COLORS) */
+$shade_primary_20_rgb: rgb(114, 110, 113);
+$shade_primary_40_rgb: rgb(85, 82, 85);
+$shade_primary_60_rgb: rgb(57, 55, 56);
+$shade_primary_80_rgb: rgb(28, 27, 28);
+$shade_secondary_20_rgb: rgb(48, 42, 62);
+$shade_secondary_40_rgb: rgb(36, 32, 47);
+$shade_secondary_60_rgb: rgb(24, 21, 31);
+$shade_secondary_80_rgb: rgb(12, 11, 16);
+$shade_accent_20_rgb: rgb(102, 1, 102);
+$shade_accent_40_rgb: rgb(76, 1, 76);
+$shade_accent_60_rgb: rgb(51, 0, 51);
+$shade_accent_80_rgb: rgb(25, 0, 25);
+
+/* SHADE RGBA (DARK COLORS) */
+$shade_primary_20_rgba: rgba(114, 110, 113, $opacity_background_global);
+$shade_primary_40_rgba: rgba(85, 82, 85, $opacity_background_global);
+$shade_primary_60_rgba: rgba(57, 55, 56, $opacity_background_global);
+$shade_primary_80_rgba: rgba(28, 27, 28, $opacity_background_global);
+$shade_secondary_20_rgba: rgba(48, 42, 62, $opacity_background_global);
+$shade_secondary_40_rgba: rgba(36, 32, 47, $opacity_background_global);
+$shade_secondary_60_rgba: rgba(24, 21, 31, $opacity_background_global);
+$shade_secondary_80_rgba: rgba(12, 11, 16, $opacity_background_global);
+$shade_accent_20_rgba: rgba(102, 1, 102, $opacity_background_global);
+$shade_accent_40_rgba: rgba(76, 1, 76, $opacity_background_global);
+$shade_accent_60_rgba: rgba(51, 0, 51, $opacity_background_global);
+$shade_accent_80_rgba: rgba(25, 0, 25, $opacity_background_global);
+
+/* ERRORS HEX */
+$color_error_hex: #ff0000;
+
+/* ERRORS RGB */
+$color_error_rgb: rgb(255, 0, 0);
+
+/* ERRORS RGBA */
+$color_error_rgba: rgba(255, 0, 0, $opacity_background_global);
+
+/* LIGHT THEME COLORS */
+$color_light_icon: black;
+$color_light_icon_hover: $tint_accent_40_hex;
+$color_light_text: black;
+
+/* DARK THEME COLORS */
+$color_dark_icon: white;
+$color_dark_icon_hover: $tint_accent_40_hex;
+$color_dark_text: white;
