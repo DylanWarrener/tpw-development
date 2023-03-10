@@ -1,28 +1,10 @@
-const path = require("path");
-const CleanPlugin = require("clean-webpack-plugin");
+const { merge } = require("webpack-merge");
+const common = require("./webpack.common.config");
 
-module.exports = {
+module.exports = merge(common, {
 	mode: "production",
-	entry: "./src/main.ts",
+	devtool: "source-map",
 	output: {
-		filename: "bundle.js",
-		path: path.resolve(__dirname, "dist"),
+		filename: "[name].min",
 	},
-	devtool: "none",
-	module: {
-		rules: [
-			/* Deal with Typescript files */
-			{
-				test: /\.ts$/,
-				use: "ts-loader",
-				exclude: /node_modules/,
-			},
-			/* Deal with Vue files */
-			{},
-		],
-	},
-	resolve: {
-		extensions: [".ts", ".js"],
-	},
-	plugins: [new CleanPlugin().CleanWebpackPlugin()],
-};
+});
