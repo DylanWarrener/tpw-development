@@ -5,12 +5,12 @@
   "author": "Dylan Warrener",
   "private": true,
   "scripts": {
-    "devBuild": "webpack --config webpack.config.dev.js",
-    "prodBuild": "webpack --config webpack.config.prod.js",
-    "vueBuild": "vue-cli-service build",
-    "wStart": "webpack-dev-server",
-    "vStart": "vue-cli-service serve",
-    "lint": "vue-cli-service lint"
+    "db": "webpack --config webpack.dev.config.js",
+    "pb": "webpack --config webpack.prod.config.js",
+    "vb": "vue-cli-service build",
+    "ws": "webpack-dev-server",
+    "vs": "vue-cli-service serve",
+    "vl": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^1.2.0",
