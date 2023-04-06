@@ -83,10 +83,9 @@ export default defineComponent({
 			if (window.scrollY < window.innerHeight - 150 && this.navStatus === "open") this.btnTransform = "top: 12vh";
 		},
 	},
-	data(): { btnTransform: string; isNavHidden: boolean } {
+	data(): { btnTransform: string } {
 		return {
 			btnTransform: "",
-			isNavHidden: false,
 		};
 	},
 	setup() {

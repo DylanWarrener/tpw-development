@@ -55,7 +55,7 @@ export default defineComponent({
 	},
 	methods: {
 		scrollPageIntoView() {
-			const beInspiredRef: any = this.$refs.beInspired;
+			const beInspiredRef = this.$refs["beInspired"];
 			scrollToElement(beInspiredRef);
 		},
 	},

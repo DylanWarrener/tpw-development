@@ -94,26 +94,33 @@ export default defineComponent({
 
 			switch (targetsParentElement.id) {
 				case "carousel_slides": {
-					const offset: any = elementTarget.dataset.carouselButton === "next" ? 1 : -1;
-					let newIndex = [...slidesUlChildren].indexOf(activeLiChild) + offset;
+					// Stores the direction of slides (1 = forward, -1 = back)
+					const offset = elementTarget.dataset["carouselButton"] === "next" ? 1 : -1;
+					// Stores the new index slide by adding the offset
+					let newIndex = activeLiChildIndex + offset;
+					// Stores the new selected child slide
 					const selectedLiChild = slidesUlChildren[newIndex] as HTMLLIElement;
+					// Stores the new selected child button
 					const selectedBtnChild = slidesDivChildren[newIndex] as HTMLButtonElement;
+
+					console.log("The current target element is: ", elementTarget);
+					console.log("The current target parent element is: ", targetsParentElement);
+
+					console.log("The active li index is: ", activeLiChildIndex);
+					console.log("The active button index is: ", activeBtnChildIndex);
+
+					console.log("The new index is: ", newIndex);
 
 					if (newIndex < 0) newIndex = slidesUlChildren.length - 1;
 					if (newIndex >= slidesUlChildren.length) newIndex = 0;
 
-					console.log("The active slide UL index is: ", activeLiChildIndex);
-					console.log("The active slide DIV index is: ", activeBtnChildIndex);
-
-					console.log("The new index is: ", newIndex);
-
 					// Set the slides li dataset
-					selectedLiChild.dataset.carouselActive = "true";
-					activeLiChild.dataset.carouselActive = "false";
+					selectedLiChild.dataset["carouselActive"] = "true";
+					activeLiChild.dataset["carouselActive"] = "false";
 
 					// Set the slides btn dataset
-					selectedBtnChild.dataset.btnActive = "true";
-					activeBtnChild.dataset.btnActive = "false";
+					selectedBtnChild.dataset["btnActive"] = "true";
+					activeBtnChild.dataset["btnActive"] = "false";
 					break;
 				}
 				case "slides_btn": {
@@ -126,12 +133,12 @@ export default defineComponent({
 						const selectedLiChild = slidesUlChildren[newIndex] as HTMLLIElement;
 
 						// Set the slides li dataset
-						selectedLiChild.dataset.carouselActive = "true";
-						activeLiChild.dataset.carouselActive = "false";
+						selectedLiChild.dataset["carouselActive"] = "true";
+						activeLiChild.dataset["carouselActive"] = "false";
 
 						// Set the slides btn dataset
-						elementTarget.dataset.btnActive = "true";
-						activeBtnChild.dataset.btnActive = "false";
+						elementTarget.dataset["btnActive"] = "true";
+						activeBtnChild.dataset["btnActive"] = "false";
 					}
 					break;
 				}

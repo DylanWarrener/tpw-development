@@ -48,9 +48,7 @@ export default defineComponent({
 			const dropdownMenuClassList: any = dropdownMenu.classList;
 
 			dropdownMenuClassList.toggle("active");
-			Object.values(dropdownMenuClassList).includes("active")
-				? (this.iconRotation = 180)
-				: (this.iconRotation = 0);
+			Object.values(dropdownMenuClassList).includes("active") ? (this.iconRotation = 180) : (this.iconRotation = 0);
 		},
 		changeCarouselDataset(index: number, name: string): void {
 			this.btnTextDropdown = name;

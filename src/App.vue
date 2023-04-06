@@ -27,7 +27,7 @@ export default defineComponent({
 	},
 	methods: {
 		scrollToTop(): void {
-			const bodyRef: any = this.$refs.body;
+			const bodyRef = this.$refs["body"];
 			scrollToElement(bodyRef);
 		},
 	},
